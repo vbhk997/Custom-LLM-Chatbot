@@ -18,8 +18,8 @@ This project implements a custom legal question-answering chatbot using the Falc
 Custom-built legal Q&A dataset in the following format:
 ```json
 {
-  "instruction": "Explain Section 498A of the IPC.",
-  "output": "Section 498A deals with cruelty to a woman by her husband or his relatives..."
+  "instruction": "What is a bailable offence?",
+  "output": "A bailable offence is one where the accused has the right to get bail. The police must release the person if they give a proper bail bond."
 }
 ```
 
