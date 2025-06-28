@@ -30,17 +30,6 @@ Custom-built legal Q&A dataset in the following format:
 
 ---
 
-## 🧪 Inference Example
-
-```python
-prompt = "### Instruction:\nWhat is the punishment for dowry death?\n\n### Response:\n"
-inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-outputs = model.generate(**inputs, max_new_tokens=150)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-```
-
----
-
 ## 📦 Installation
 
 ```bash
@@ -60,8 +49,11 @@ You’ll also need a CUDA-enabled GPU if not running on Colab.
 
 ---
 
-## 🤖 Future Work (Optional Enhancements)
+## 🤖 Future Work
 
 - Integrate RAG for external legal document lookup
 - Add Gradio UI for interactive legal chatbot
 - Deploy model to Hugging Face Spaces or Streamlit
+
+---
+---
