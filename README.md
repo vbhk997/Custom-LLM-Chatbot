@@ -1,8 +1,8 @@
-# 🧠 Falcon LegalBot — Fine-Tuning Falcon with LoRA for Indian Legal QA
+# Falcon LegalBot — Fine-Tuning Falcon with LoRA for Indian Legal QA
 
 This project implements a custom legal question-answering chatbot using the Falcon-RW-1B language model, fine-tuned with LoRA (Parameter-Efficient Fine-Tuning) on a dataset of legal instructions and responses.
 
-## 📌 Highlights
+## Highlights
 
 - ✅ Fine-tuned using [LoRA (PEFT)](https://huggingface.co/docs/peft) on top of `tiiuae/falcon-rw-1b`
 - ✅ Used 4-bit quantization via `bitsandbytes` for low-memory training
@@ -12,7 +12,7 @@ This project implements a custom legal question-answering chatbot using the Falc
 
 ---
 
-## 🚀 Quick Overview
+## Quick Overview
 
 ### Dataset
 Custom-built legal Q&A dataset in the following format:
@@ -30,7 +30,7 @@ Custom-built legal Q&A dataset in the following format:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -40,7 +40,7 @@ You’ll also need a CUDA-enabled GPU if not running on Colab.
 
 ---
 
-## 🗃️ Files Included
+## Files Included
 
 - `legal_bot_training.ipynb` — Full Colab notebook for training
 - `legal_bot_dataset.json` — Custom dataset (10,000 entries)
@@ -49,7 +49,7 @@ You’ll also need a CUDA-enabled GPU if not running on Colab.
 
 ---
 
-## 🤖 Future Work
+## Future Work
 
 - Integrate RAG for external legal document lookup
 - Add Gradio UI for interactive legal chatbot
